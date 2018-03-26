@@ -58,6 +58,10 @@ public class UserEntity implements Serializable {
 	 * 创建时间
 	 */
 	private Date createTime;
+	/**
+	 * 身份证
+	 */
+	private String idCard;
 
 	/**
 	 * 设置：用户ID
@@ -118,5 +122,13 @@ public class UserEntity implements Serializable {
 	 */
 	public Date getCreateTime() {
 		return createTime;
+	}
+
+	public String getIdCard() {
+		return idCard;
+	}
+
+	public void setIdCard(String idCard) {
+		this.idCard = idCard;
 	}
 }
